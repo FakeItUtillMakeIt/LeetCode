@@ -30,13 +30,5 @@ class Solution {
         }    
         return s;
     }
-    private:
-     int getLenOfNum(int n) {
-        int len = 0;
-        while (n != 0) {
-            len++;
-            n /= 10;
-        }
-        return len;
-    }
+   
 };
