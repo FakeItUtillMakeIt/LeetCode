@@ -2,7 +2,7 @@ class Solution {
 public:
     int minCostClimbingStairs(vector<int>& cost) {
         int n=cost.size();
-        int dp[n+1];
+        int dp[n+1];//记录爬到i层时的花费
         dp[0]=0;
         dp[1]=0;
         for(int i=2;i<=n;i++)
